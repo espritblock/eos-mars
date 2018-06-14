@@ -1,0 +1,53 @@
+{
+  "name": "Mars",
+  "version": "0.0.1",
+  "private": true,
+  "description": "eos wallet create by espritblock",
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "ios": "react-native run-ios",
+    "android": "react-native run-android"
+  },
+  "dependencies": {
+    "crypto-js": "^3.1.9-1",
+    "dva-core": "^1.1.0",
+    "moment": "^2.20.1",
+    "prop-types": "^15.6.1",
+    "react": "^16.3.1",
+    "react-native": "0.55.3",
+    "react-native-blur": "^3.2.2",
+    "react-native-device-info": "^0.21.0",
+    "react-native-drawer": "^2.5.0",
+    "react-native-eosjs": "0.0.5",
+    "react-native-fingerprint-scanner": "^2.3.2",
+    "react-native-fs": "^2.9.12",
+    "react-native-gesture-handler": "^1.0.0-alpha.40",
+    "react-native-i18n": "^2.0.12",
+    "react-native-linear-gradient": "^2.4.0",
+    "react-native-qrcode-scanner": "^1.0.1",
+    "react-native-qrcode-svg": "^5.0.6",
+    "react-native-simple-store": "^1.3.0",
+    "react-native-snap-carousel": "^3.7.0",
+    "react-native-splash-screen": "^3.0.6",
+    "react-native-svg": "^6.3.1",
+    "react-native-swiper": "^1.5.13",
+    "react-native-tab-view": "0.0.74",
+    "react-native-typography": "^1.3.0",
+    "react-native-view-shot": "^2.3.0",
+    "react-navigation": "^1.5.1",
+    "react-navigation-redux-helpers": "^1.0.3",
+    "react-redux": "^5.0.7",
+    "rnkit-actionsheet-picker": "^1.1.0"
+  },
+  "devDependencies": {
+    "babel-jest": "22.4.1",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "22.4.2",
+    "react-test-renderer": "^16.3.0-alpha.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
